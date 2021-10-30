@@ -10,7 +10,8 @@ A complete and constantly updated snippet for various languages.
 
 | Code        | Description |
 | ----------- | ----------- |
-| !hyphtml    | Creates a basic html template ready for work.       |
+| !hyphtml    | Creates a basic html template ready for work.   |
+| !hyprc      | Creates a basic react component template.       |
 
   
 ## Authors
