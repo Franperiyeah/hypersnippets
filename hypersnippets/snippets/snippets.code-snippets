@@ -1,5 +1,5 @@
 {
-    "Hypersnippet starter template": {
+    "Hypersnippet basic html template": {
         "prefix": "!hyphtml",
         "body": [
            "<!DOCTYPE html>",
@@ -14,6 +14,93 @@
     "$0",
 "</body>",
 "</html>"
+        ]
+    },
+    "Hypersnippet import react": {
+        "prefix": "!hypir",
+        "body": [
+            "import React from 'react'"
+            
+        ]
+    },
+    "Hypersnippet import react with component": {
+        "prefix": "!hypirc",
+        "body": [
+            "import React, { Component } from 'react';"
+            
+        ]
+    },
+    "Hypersnippet Class Component and export": {
+        "prefix": "!hyprcc",
+        "body": [
+            "class | extends Component {",
+                "state = { | },",
+               " render() {",
+                 " return ( | );",
+               " }",
+              "}",
+              "$0",
+              "export default |;"
+        ]
+    },
+    "Hypersnippet stateless function component": {
+        "prefix": "!hyprsfc",
+        "body": [
+            "const | = props => {",
+                "return ( | );",
+             " };",
+             "$0",
+              "export default |;"
+        ]
+    },
+    "Hypersnippet componentDidMount": {
+        "prefix": "!hyprcdm",
+        "body": [
+            "componentDidMount() {",
+            "$0",  
+              "}"
+        ]
+    },
+    "Hypersnippet componentDidUpdate": {
+        "prefix": "!hyprcdu",
+        "body": [
+            "componentDidUpdate(prevProps, prevState) {",
+            "$0",  
+             "}"
+        ]
+    },
+    "Hypersnippet setState": {
+        "prefix": "!hyprss",
+        "body": [
+            "this.setState({ | : | });"
+        ]
+    },
+    "Hypersnippet render": {
+        "prefix": "!hyprren",
+        "body": [
+            "render() {",
+               " return (",
+               "$0",
+                ");",
+              "}"
+        ]
+    },
+
+    "Hypersnippet react component template": {
+        "prefix": "!hyprc",
+        "body": [
+            "import React from 'react'",
+            "$0",
+            "function X() {",
+                "return (",
+                   "<div>",
+                    "$0", 
+                    "</div>",
+                ")",
+            "}",
+            "$0",
+            "export default X"
+            
         ]
     }
 }
