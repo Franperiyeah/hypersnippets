@@ -16,6 +16,56 @@
 "</html>"
         ]
     },
+    "Hypersnippet JS Reverse a string": {
+        "prefix": "!hypjsrs",
+        "body": [
+            "const reverseString= string => [...string].reverse().join('');"
+        ]
+    },
+    "Hypersnippet JS Loop through an object": {
+        "prefix": "!hypjslo",
+        "body": [
+            "const person = { name: 'Fran', Age: 30, Gender: 'male' };",
+            "for (const property in person) {",
+              "console.log(`${property}: ${person[property]}`);",
+           " }"
+        ]
+    },
+    "Hypersnippet JS Find in an array of objects": {
+        "prefix": "!hypjsfao",
+        "body": [
+            "const students = [",
+                "{name: 'Fran', roll: 2},",
+                "{name: 'Nathan', roll: 10},",
+               " {name: 'Ellie', roll: 5}",
+              "];",
+              "$0",
+              "function search(student) {",
+                "return student.name=== 'Fran';",
+              "}"
+        ]
+    },
+    "Hypersnippet JS Sorting an array": {
+        "prefix": "!hypjssa",
+        "body": [
+            "const name = ['Fran', 'Nathan', 'Ellie', 'Jane'];",
+            "const arr = [1, 30, 4, 21, 100000];",
+            "name.sort();",
+            "console.log(name);",
+            "$0",
+            // sort numerically
+            "arr.sort(function(a, b) {",
+            "return a - b;",
+            "});"
+        ]
+    },
+    "Hypersnippet JS Find the largest number of an array": {
+        "prefix": "!hypjsfla",
+        "body": [
+            "const array1 = [1,3,2];",
+             "console.log(math.max(...array1));"
+        ]
+    },
     "Hypersnippet import react": {
         "prefix": "!hypir",
         "body": [
